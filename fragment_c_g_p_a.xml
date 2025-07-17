@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".CGPA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Welcome to CGPA Calculator"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester1 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester2 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester3 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester4 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester5 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester6 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester7 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester8 GPA"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/gp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Here"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/c8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/calcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Caluclate CGPA" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Reset Values" />
+
+</LinearLayout>

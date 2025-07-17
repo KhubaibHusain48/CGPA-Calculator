@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".GPA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Welcome to GPA Calculator"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Subject Name"
+            android:inputType="text"
+            android:maxLength="5"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/gpa8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Subject GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/ch8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Credit Hours"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#CDA4A4"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/resultShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Caluclate Semester GPA" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Reset Values" />
+
+
+</LinearLayout>
